@@ -24,6 +24,9 @@ class FirstFragment : Fragment() {
         val textView1:TextView = view.findViewById(R.id.textView1)
         val textView2:TextView = view.findViewById(R.id.textView2)
 
+        val button1:Button=view.findViewById(R.id.button1)
+        val button2:Button=view.findViewById(R.id.button2)
+
         return view//inflater.inflate(R.layout.fragment_first, container, false)
     }
 
