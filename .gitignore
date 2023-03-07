@@ -1,0 +1,7 @@
+.gitignore
+.idea/
+/app/build
+/build/
+
+/app/src/androidTest/java/com/example/laboratory_work_1/
+/app/src/test/java/com/example/laboratory_work_1/
