@@ -27,6 +27,12 @@ class FirstFragment : Fragment() {
         val button1:Button=view.findViewById(R.id.button1)
         val button2:Button=view.findViewById(R.id.button2)
 
+        button1.setOnClickListener(){
+            textView1.text="Hello from button1!"
+        }
+
+
+
         return view//inflater.inflate(R.layout.fragment_first, container, false)
     }
 
