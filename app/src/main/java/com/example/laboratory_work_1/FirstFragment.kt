@@ -31,7 +31,9 @@ class FirstFragment : Fragment() {
             textView1.text="Hello from button1!"
         }
 
-
+        button2.setOnClickListener(){
+            textView2.text="Hello from button2!"
+        }
 
         return view//inflater.inflate(R.layout.fragment_first, container, false)
     }
