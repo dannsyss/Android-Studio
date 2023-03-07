@@ -29,10 +29,12 @@ class FirstFragment : Fragment() {
 
         button1.setOnClickListener(){
             textView1.text="Hello from button1!"
+            Toast.makeText(getActivity(),"Нажата кнопка1.",Toast.LENGTH_SHORT).show()
         }
 
         button2.setOnClickListener(){
             textView2.text="Hello from button2!"
+            Toast.makeText(getActivity(),"Нажата кнопка2.",Toast.LENGTH_SHORT).show()
         }
 
         return view//inflater.inflate(R.layout.fragment_first, container, false)
