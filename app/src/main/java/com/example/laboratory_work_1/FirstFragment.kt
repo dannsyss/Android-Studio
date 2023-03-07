@@ -21,6 +21,8 @@ class FirstFragment : Fragment() {
         // Inflate the layout for this fragment
         val view=inflater.inflate(R.layout.fragment_first,container,false)
 
+        val textView1:TextView = view.findViewById(R.id.textView1)
+        val textView2:TextView = view.findViewById(R.id.textView2)
 
         return view//inflater.inflate(R.layout.fragment_first, container, false)
     }
